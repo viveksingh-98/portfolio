@@ -1,0 +1,56 @@
+<!-- AI/ML -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffecd2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fcb69f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#aiGrad)"/>
+  
+  <!-- AI/ML icons -->
+  <g fill="white" opacity="0.3">
+    <!-- Neural network nodes -->
+    <circle cx="80" cy="80" r="8" fill="white"/>
+    <circle cx="120" cy="60" r="8" fill="white"/>
+    <circle cx="120" cy="100" r="8" fill="white"/>
+    <circle cx="160" cy="80" r="8" fill="white"/>
+    
+    <!-- Neural connections -->
+    <g stroke="white" stroke-width="2" opacity="0.3">
+      <line x1="88" y1="80" x2="112" y2="65"/>
+      <line x1="88" y1="80" x2="112" y2="95"/>
+      <line x1="128" y1="60" x2="152" y2="75"/>
+      <line x1="128" y1="100" x2="152" y2="85"/>
+    </g>
+    
+    <!-- Brain-like shape -->
+    <path d="M280 70 C290 60, 310 60, 320 70 C330 65, 340 75, 330 85 C335 90, 325 100, 315 95 C310 105, 290 105, 285 95 C275 100, 265 90, 270 85 C260 75, 270 65, 280 70 Z" fill="white" opacity="0.3"/>
+    
+    <!-- Data points -->
+    <g fill="white" opacity="0.4">
+      <circle cx="50" cy="200" r="3"/>
+      <circle cx="70" cy="190" r="3"/>
+      <circle cx="90" cy="210" r="3"/>
+      <circle cx="110" cy="195" r="3"/>
+      <circle cx="130" cy="205" r="3"/>
+      
+      <!-- Trend line -->
+      <polyline points="50,200 70,190 90,210 110,195 130,205" fill="none" stroke="white" stroke-width="2" opacity="0.4"/>
+    </g>
+  </g>
+  
+  <!-- Main content -->
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle" font-weight="bold">AI/ML</text>
+  
+  <!-- ML frameworks -->
+  <g fill="white" opacity="0.8" font-family="monospace" font-size="12">
+    <text x="40" y="260">TensorFlow</text>
+    <text x="110" y="260">PyTorch</text>
+    <text x="170" y="260">Scikit-learn</text>
+    <text x="240" y="260">Keras</text>
+    <text x="280" y="260">NLP</text>
+    <text x="310" y="260">CV</text>
+    <text x="340" y="260">MLOps</text>
+  </g>
+</svg>

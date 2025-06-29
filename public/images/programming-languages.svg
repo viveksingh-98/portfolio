@@ -1,0 +1,31 @@
+<!-- Programming Languages -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="progGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#progGrad)"/>
+  
+  <!-- Code brackets -->
+  <g fill="white" opacity="0.3">
+    <text x="50" y="80" font-family="monospace" font-size="40" font-weight="bold">&lt;/&gt;</text>
+    <text x="300" y="180" font-family="monospace" font-size="60" font-weight="bold">{}</text>
+    <text x="80" y="220" font-family="monospace" font-size="35" font-weight="bold">[]</text>
+  </g>
+  
+  <!-- Main content -->
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle" font-weight="bold">Programming</text>
+  <text x="200" y="150" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle" font-weight="bold">Languages</text>
+  
+  <!-- Language icons as text -->
+  <g fill="white" opacity="0.8" font-family="monospace" font-size="14">
+    <text x="50" y="260">Python</text>
+    <text x="120" y="260">Java</text>
+    <text x="170" y="260">JS</text>
+    <text x="210" y="260">C++</text>
+    <text x="260" y="260">SQL</text>
+    <text x="310" y="260">HTML</text>
+  </g>
+</svg>

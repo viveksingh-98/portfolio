@@ -1,0 +1,55 @@
+<!-- DevOps -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="devopsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9a9e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fecfef;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#devopsGrad)"/>
+  
+  <!-- DevOps icons -->
+  <g fill="white" opacity="0.3">
+    <!-- Docker-like container -->
+    <rect x="60" y="70" width="50" height="30" rx="5" fill="none" stroke="white" stroke-width="2"/>
+    <rect x="65" y="75" width="40" height="20" rx="3" fill="white" opacity="0.3"/>
+    <line x1="70" y1="80" x2="100" y2="80" stroke="white" stroke-width="1"/>
+    <line x1="70" y1="85" x2="95" y2="85" stroke="white" stroke-width="1"/>
+    <line x1="70" y1="90" x2="90" y2="90" stroke="white" stroke-width="1"/>
+    
+    <!-- Kubernetes wheel -->
+    <circle cx="300" cy="90" r="20" fill="none" stroke="white" stroke-width="2"/>
+    <g stroke="white" stroke-width="2">
+      <line x1="300" y1="70" x2="300" y2="110"/>
+      <line x1="283" y1="83" x2="317" y2="97"/>
+      <line x1="283" y1="97" x2="317" y2="83"/>
+    </g>
+    <circle cx="300" cy="90" r="4" fill="white"/>
+    
+    <!-- CI/CD Pipeline -->
+    <g stroke="white" stroke-width="2" fill="none">
+      <rect x="150" y="200" width="25" height="15" rx="3"/>
+      <line x1="175" y1="207" x2="190" y2="207"/>
+      <polygon points="190,202 200,207 190,212" fill="white"/>
+      <rect x="200" y="200" width="25" height="15" rx="3"/>
+      <line x1="225" y1="207" x2="240" y2="207"/>
+      <polygon points="240,202 250,207 240,212" fill="white"/>
+      <rect x="250" y="200" width="25" height="15" rx="3"/>
+    </g>
+  </g>
+  
+  <!-- Main content -->
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle" font-weight="bold">Tools &amp;</text>
+  <text x="200" y="150" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle" font-weight="bold">DevOps</text>
+  
+  <!-- Tools list -->
+  <g fill="white" opacity="0.8" font-family="monospace" font-size="12">
+    <text x="40" y="260">Docker</text>
+    <text x="90" y="260">K8s</text>
+    <text x="130" y="260">Jenkins</text>
+    <text x="180" y="260">Git</text>
+    <text x="210" y="260">CI/CD</text>
+    <text x="250" y="260">Terraform</text>
+    <text x="310" y="260">Jira</text>
+  </g>
+</svg>

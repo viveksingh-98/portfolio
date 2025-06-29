@@ -1,0 +1,42 @@
+<!-- Frameworks -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frameworkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#11998e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38ef7d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#frameworkGrad)"/>
+  
+  <!-- Framework icons -->
+  <g fill="white" opacity="0.3">
+    <!-- React-like logo -->
+    <circle cx="100" cy="100" r="25" fill="none" stroke="white" stroke-width="3"/>
+    <circle cx="100" cy="100" r="15" fill="none" stroke="white" stroke-width="2" transform="rotate(60 100 100)"/>
+    <circle cx="100" cy="100" r="15" fill="none" stroke="white" stroke-width="2" transform="rotate(-60 100 100)"/>
+    <circle cx="100" cy="100" r="3" fill="white"/>
+    
+    <!-- Node.js-like -->
+    <rect x="280" y="80" width="40" height="40" rx="20" fill="white" opacity="0.3"/>
+    <text x="300" y="105" font-family="monospace" font-size="16" fill="white" text-anchor="middle" font-weight="bold">N</text>
+    
+    <!-- Database cylinder -->
+    <ellipse cx="320" cy="200" rx="30" ry="8" fill="white" opacity="0.3"/>
+    <rect x="290" y="200" width="60" height="30" fill="white" opacity="0.3"/>
+    <ellipse cx="320" cy="230" rx="30" ry="8" fill="white" opacity="0.3"/>
+  </g>
+  
+  <!-- Main content -->
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle" font-weight="bold">Frameworks &amp;</text>
+  <text x="200" y="150" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle" font-weight="bold">Technologies</text>
+  
+  <!-- Tech stack -->
+  <g fill="white" opacity="0.8" font-family="monospace" font-size="12">
+    <text x="60" y="260">React</text>
+    <text x="110" y="260">Node.js</text>
+    <text x="170" y="260">Django</text>
+    <text x="220" y="260">Flask</text>
+    <text x="270" y="260">Express</text>
+    <text x="330" y="260">MongoDB</text>
+  </g>
+</svg>

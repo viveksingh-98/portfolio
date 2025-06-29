@@ -1,0 +1,48 @@
+<!-- Certifications -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="certGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff8a80;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ea7eea;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#certGrad)"/>
+  
+  <!-- Certification icons -->
+  <g fill="white" opacity="0.3">
+    <!-- Certificate/diploma -->
+    <rect x="60" y="70" width="80" height="60" rx="5" fill="none" stroke="white" stroke-width="2"/>
+    <rect x="70" y="80" width="60" height="3" fill="white"/>
+    <rect x="70" y="90" width="50" height="2" fill="white"/>
+    <rect x="70" y="100" width="55" height="2" fill="white"/>
+    <rect x="70" y="110" width="45" height="2" fill="white"/>
+    
+    <!-- Badge/medal -->
+    <circle cx="300" cy="100" r="25" fill="none" stroke="white" stroke-width="3"/>
+    <polygon points="300,85 305,95 315,95 307,102 310,112 300,107 290,112 293,102 285,95 295,95" fill="white"/>
+    
+    <!-- Trophy -->
+    <path d="M180 200 C175 195, 175 185, 180 180 L220 180 C225 185, 225 195, 220 200 L215 200 L215 210 L205 215 L195 215 L185 210 L185 200 Z" fill="white" opacity="0.3"/>
+    <rect x="190" y="215" width="20" height="8" fill="white" opacity="0.3"/>
+    
+    <!-- Achievement ribbons -->
+    <g stroke="white" stroke-width="2" fill="white" opacity="0.2">
+      <rect x="320" y="180" width="15" height="30"/>
+      <polygon points="320,210 327,220 335,210" fill="white" opacity="0.3"/>
+      <rect x="340" y="185" width="15" height="25"/>
+      <polygon points="340,210 347,218 355,210" fill="white" opacity="0.3"/>
+    </g>
+  </g>
+  
+  <!-- Main content -->
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle" font-weight="bold">Certifications</text>
+  
+  <!-- Certification list -->
+  <g fill="white" opacity="0.8" font-family="monospace" font-size="12">
+    <text x="40" y="260">RHCE</text>
+    <text x="80" y="260">CCNA</text>
+    <text x="120" y="260">Advanced C++</text>
+    <text x="210" y="260">Shell Scripting</text>
+    <text x="290" y="260">RedHat Fundamentals</text>
+  </g>
+</svg>
