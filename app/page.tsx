@@ -170,7 +170,7 @@ const projectsContent = [
     content: (
       <div className="h-full w-full overflow-hidden rounded-md">
         <img 
-          src="/images/bravebuddy.png" 
+          src="./images/bravebuddy.png" 
           alt="BraveBuddy - AI Companion for Pediatric Cancer Patients"
           className="h-full w-full object-cover"
         />
@@ -193,7 +193,7 @@ const projectsContent = [
     content: (
       <div className="h-full w-full overflow-hidden rounded-md">
         <img 
-          src="/images/cloud_file_storage.png" 
+          src="./images/cloud_file_storage.png" 
           alt="Cloud File Storage System"
           className="h-full w-full object-cover"
         />
@@ -216,7 +216,7 @@ const projectsContent = [
     content: (
       <div className="h-full w-full overflow-hidden rounded-md">
         <img 
-          src="/images/personal_media_server.png" 
+          src="./images/personal_media_server.png" 
           alt="Personal Media Server on Oracle Cloud"
           className="h-full w-full object-cover"
         />
@@ -229,7 +229,7 @@ const projectsContent = [
     content: (
       <div className="h-full w-full overflow-hidden rounded-md">
         <img 
-          src="/images/medical_diagnosis_tool.png" 
+          src="./images/medical_diagnosis_tool.png" 
           alt="AI-Powered Medical Diagnosis Tool"
           className="h-full w-full object-cover"
         />
@@ -252,7 +252,7 @@ const projectsContent = [
     content: (
       <div className="h-full w-full overflow-hidden rounded-md">
         <img 
-          src="/images/movie_review_system.png" 
+          src="./images/movie_review_system.png" 
           alt="Full-Stack Movie Review System"
           className="h-full w-full object-cover"
         />
@@ -275,7 +275,7 @@ const projectsContent = [
     content: (
       <div className="h-full w-full overflow-hidden rounded-md">
         <img 
-          src="/images/shortest_path_algo.png" 
+          src="./images/shortest_path_algo.png" 
           alt="Incremental Shortest Path Algorithm Visualization"
           className="h-full w-full object-cover"
         />
